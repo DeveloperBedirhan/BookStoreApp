@@ -5,7 +5,9 @@ I completed an education on BTK Academy. This duration i learned about this titl
 API, HTTP, REST, RESTful
 ASP.NET Core
 Logging
+                              
 Working with models
+
 Postman
 Entity Framework Core
 Software Architecture
