@@ -10,7 +10,9 @@ Logging
 Working with models
 
 Postman
+
 Entity Framework Core
+
 Software Architecture
 NLog Implementation
 Global Error Handling
