@@ -3,22 +3,19 @@ Book store app back-end development example with ASP.NET Core Web API
 I completed an education on BTK Academy. This duration i learned about this titles.
 
 API, HTTP, REST, RESTful
-  ASP.NET Core
+  ASP.NET Core    
   Logging                        
-  Working with models
-
-Postman
-
-Entity Framework Core
-
-Software Architecture
-NLog Implementation
-Global Error Handling
-AutoMapper
-Content Negotiation
-Validation
-Asynchronous Code
-Action Filters
+  Working with models      
+  Postman
+Entity Framework Core        
+Software Architecture  
+NLog Implementation  
+Global Error Handling  
+AutoMapper  
+Content Negotiation  
+Validation  
+Asynchronous Code  
+Action Filters  
 Pagination
 Filtering
 Searching
