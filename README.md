@@ -3,7 +3,9 @@ Book store app back-end development example with ASP.NET Core Web API
 I completed an education on BTK Academy. This duration i learned about this titles.
 
 API, HTTP, REST, RESTful
+
 ASP.NET Core
+
 Logging
                               
 Working with models
