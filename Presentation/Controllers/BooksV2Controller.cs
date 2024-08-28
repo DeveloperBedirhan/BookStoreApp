@@ -4,7 +4,8 @@ using Services.Contracts;
 namespace Presentation.Controllers
 {
     [ApiController]
-    [Route("api/books")]
+    [Route("api/{v:apiversion}/books")] // URL versioning
+    [Route("api/books")] // Header versioning
     [ApiExplorerSettings(GroupName = "v2")]
     public class BooksV2Controller : ControllerBase
     {
