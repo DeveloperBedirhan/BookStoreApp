@@ -1,6 +1,7 @@
-﻿using AspNetCoreRateLimit;
+using AspNetCoreRateLimit;
 using Entities.DataTransferObjects;
 using Entities.Models;
+using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -113,7 +114,7 @@ namespace WebApi.Extensions
         public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>
             services.AddHttpCacheHeaders(expirationOpt =>
             {
-                //expirationOpt.CacheLocation = CacheLocation.Public;
+                expirationOpt.CacheLocation = CacheLocation.Public;
                 expirationOpt.MaxAge = 50;
             },
             validateOpt =>
