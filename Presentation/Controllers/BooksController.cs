@@ -9,13 +9,10 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Presentation.Controllers
 {
-    //[ApiVersion("1.0")]
     [ServiceFilter(typeof(LogFilterAttribute))]
     [ApiController]
     [Route("api/books")]
     [ApiExplorerSettings(GroupName = "v1")]
-    //[ResponseCache(CacheProfileName ="5mins")]
-    //[HttpCacheExpiration(CacheLocation = CacheLocation.Public, MaxAge = 70)]
     public class BooksController : ControllerBase
     {
         private readonly IServiceManager _manager;
