@@ -3,7 +3,6 @@ using Services.Contracts;
 
 namespace Presentation.Controllers
 {
-    //[ApiVersion("2.0", Deprecated = true)]
     [ApiController]
     [Route("api/books")]
     [ApiExplorerSettings(GroupName = "v2")]
