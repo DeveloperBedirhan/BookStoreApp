@@ -98,7 +98,7 @@ namespace Presentation.Controllers
                 return BadRequest(); //400
             
             //check entity
-            var result = await _manager.BookService.GetOneBookForPatchAsync(id, false);
+            var result = await _manager.BookService.GetOneBookForPatchAsync(id, true);
 
             book.ApplyTo(result.bookDtoForUpdate, ModelState);
 
