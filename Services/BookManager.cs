@@ -49,7 +49,7 @@ namespace Services
             GetAllBooksAsync(LinkParameters linkParameters, bool trackChanges)
         {
             if(!linkParameters.BookParameters.ValidPriceRange)
-                throw new PriceOutOfRangeBadRequestException();
+                throw new UnvalidPriceRangeBadRequestException();
             
             var booksWithMetaData = await _manager.Book.GetAllBooksAsync(linkParameters.BookParameters, trackChanges);
             var booksDto = _mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
